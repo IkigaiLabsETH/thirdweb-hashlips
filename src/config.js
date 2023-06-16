@@ -32,11 +32,25 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 33,
     layersOrder: [
-      { name: "Background" },
-      { name: "Background_P", options: { blend: MODE.multiply, opacity: 0.9 } },
+      { name: "GenArtSeries", options: { blend: MODE.exclusion, opacity: 0.0 } },
+      { name: "Vest", options: { blend: MODE.difference, opacity: 0.0 } },
+      { name: "Pants", options: { blend: MODE.difference, opacity: 0.0 } },
+      { name: "Mask", options: { blend: MODE.difference, opacity: 0.0 } },
+      { name: "Helmet", options: { blend: MODE.difference, opacity: 0.0 } },
+      { name: "Hair", options: { blend: MODE.difference, opacity: 0.0 } },
+      { name: "Eyes", options: { blend: MODE.difference, opacity: 0.0 } },
+      { name: "Eyebrows", options: { blend: MODE.difference, opacity: 0.0 } },
+      { name: "Boots", options: { blend: MODE.multiply, opacity: 0.0 } },
+      { name: "Body", options: { blend: MODE.multiply, opacity: 0.0 } },
+      { name: "Boardrider", options: { blend: MODE.multiply, opacity: 0.0 } },
+      { name: "Beard", options: { blend: MODE.multiply, opacity: 0.0 } },
+      { name: "Noise", options: { blend: MODE.multiply, opacity: 0.0 } },
+      { name: "Accessories", options: { blend: MODE.multiply, opacity: 0.0 } },
+      { name: "Background", options: { blend: MODE.multiply, opacity: 0.0 } },
+      { name: "Background_P" },
       { name: "Body_N" },
-      { name: "Mask_N" },
       { name: "Accessories_N" },
+      { name: "Mask_N" },
       { name: "Glasses_N" },
     ],
   },
@@ -49,8 +63,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 1024,
-  height: 1024,
+  width: 2000,
+  height: 2000,
   smoothing: false,
 };
 

@@ -6,6 +6,8 @@
 
 The forked version of [HashLips Art Engine](https://github.com/HashLips/hashlips_art_engine) with better features and compatibility with [thirdweb](https://thirdweb.com).
 
+Generative photography project that harnesses the serendipity of on-chain mechanics to compose unique one of a kind NFTs. Each piece is a unique combination of five core layers and additional special layers.
+
 ## ⚡ Instant Setup
 
 Let's get started with the instant setup and build. Proceed to the requirements below.
