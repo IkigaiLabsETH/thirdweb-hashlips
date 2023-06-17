@@ -36,7 +36,7 @@ const layerConfigurations = [
       { name: "Activities", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Photography", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Location", options: { blend: MODE.multiply, opacity: 0.0 } },
-      { name: "Lifestyle", options: { blend: MODE.multiply, opacity: 0.0 } },
+      { name: "Look", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Filmgrain", options: { blend: MODE.multiply, opacity: 0.1 } },
       { name: "Colorgrade", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Background" },
