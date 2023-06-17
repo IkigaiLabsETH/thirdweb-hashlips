@@ -39,7 +39,7 @@ const layerConfigurations = [
       { name: "Lifestyle", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Filmgrain", options: { blend: MODE.multiply, opacity: 0.1 } },
       { name: "Colorgrade", options: { blend: MODE.multiply, opacity: 0.0 } },
-      { name: "Texture" },
+      { name: "Background" },
       { name: "Merch" },
       { name: "Logo" },
       { name: "Media" },
