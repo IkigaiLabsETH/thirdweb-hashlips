@@ -93,10 +93,6 @@ const isLayerNameFileNameAsIs = false;
 > input: "**AWESOME**#1.png" as layer image filename.
 > output: "_Awesome_" as trait value.
 
-### ✅ NFT Dummy Assets
-
-New NFT dummy assets to play with, you can use my **[NFT dummy assets here](https://github.com/warengonzaga/nft-dummy-assets)**.
-
 ## 🐛 Issues
 
 If you're facing a problem in using The thirdweb Art Engine please let me know by [creating an issue here](https://github.com/warengonzaga/thirdweb-art-engine/issues/new) or joining the official [thirdweb discord](https://discord.gg/thirdweb) server and mention me there. I'm here to help you!
