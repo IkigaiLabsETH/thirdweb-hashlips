@@ -42,7 +42,7 @@ const layerConfigurations = [
       { name: "Texture" },
       { name: "Merch" },
       { name: "Logo" },
-      { name: "Vibes" },
+      { name: "Media" },
       { name: "Nouns" },
     ],
   },
