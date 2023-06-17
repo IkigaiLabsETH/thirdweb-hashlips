@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "LTL";
-const description = "LiveTheLife";
+const namePrefix = "Degen Vibes";
+const description = "Electrifying journey into the world of Degen Vibes";
 const startCountFrom = 0;
 // Optional, change hasBaseUri to true if your  images pre-uploaded to IPFS
 const hasBaseUri = false;
@@ -16,7 +16,7 @@ const baseUri = "ipfs://cid-here";
 const isLayerNameFileNameAsIs = false;
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "LTL",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
@@ -30,7 +30,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 69,
+    growEditionSizeTo: 33,
     layersOrder: [
       { name: "Community", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Activities", options: { blend: MODE.difference, opacity: 0.0 } },
