@@ -39,7 +39,7 @@ const layerConfigurations = [
       { name: "Look", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Filmgrain", options: { blend: MODE.multiply, opacity: 0.9 } },
       { name: "Boardriders", options: { blend: MODE.multiply, opacity: 0.0 } },
-      { name: "Background" },
+      { name: "Punksbackground" },
       { name: "Punks" },
       { name: "Punkstop" },
       { name: "Punksglasses" },
