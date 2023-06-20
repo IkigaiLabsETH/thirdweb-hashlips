@@ -30,7 +30,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 69,
+    growEditionSizeTo: 33,
     layersOrder: [
       { name: "Community", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Activities", options: { blend: MODE.difference, opacity: 0.0 } },
@@ -39,9 +39,7 @@ const layerConfigurations = [
       { name: "Look", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Boardriders", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Background" },
-      { name: "Punkanon" },
-      { name: "Punkvibes" },
-      { name: "Punksbeard" },
+      { name: "Toadshort" },
     ],
   },
 ];
@@ -53,7 +51,7 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 2000,
+  width: 3000,
   height: 2000,
   smoothing: false,
 };
