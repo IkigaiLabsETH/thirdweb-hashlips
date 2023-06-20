@@ -30,20 +30,18 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 33,
+    growEditionSizeTo: 69,
     layersOrder: [
       { name: "Community", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Activities", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Photography", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Location", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Look", options: { blend: MODE.multiply, opacity: 0.0 } },
-      { name: "Filmgrain", options: { blend: MODE.multiply, opacity: 0.9 } },
       { name: "Boardriders", options: { blend: MODE.multiply, opacity: 0.0 } },
-      { name: "Punksbackground" },
-      { name: "Punks" },
-      { name: "Punkstop" },
-      { name: "Punksglasses" },
-      { name: "Punksmouth" },
+      { name: "Background" },
+      { name: "Punkanon" },
+      { name: "Punkvibes" },
+      { name: "Punksbeard" },
     ],
   },
 ];
@@ -81,7 +79,7 @@ const text = {
 };
 
 const pixelFormat = {
-  ratio: 2 / 128,
+  ratio: 0.1 / 128,
 };
 
 const background = {
