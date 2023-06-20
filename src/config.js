@@ -39,7 +39,7 @@ const layerConfigurations = [
       { name: "Look", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Boardriders", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Background" },
-      { name: "Toadshort" },
+      { name: "Toadbody" },
     ],
   },
 ];
@@ -51,7 +51,7 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 3000,
+  width: 2000,
   height: 2000,
   smoothing: false,
 };
