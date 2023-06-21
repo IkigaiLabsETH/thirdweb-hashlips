@@ -27,15 +27,45 @@ const solanaMetadata = {
   ],
 };
 
+// EXAMPLE CP REMIX
+//  { name: "Community", options: { blend: MODE.overlay, opacity: 0.0 } },
+//  { name: "Activities", options: { blend: MODE.color-dodge, opacity: 0.0 } },
+//  { name: "Photography", options: { blend: MODE.difference, opacity: 0.0 } },
+//  { name: "Location", options: { blend: MODE.color-burn, opacity: 0.0 } },
+//  { name: "Look", options: { blend: MODE.hue, opacity: 0.0 } },
+//  { name: "Filmgrain", options: { blend: MODE.saturation, opacity: 0.9 } },
+//  { name: "Boardriders", options: { blend: MODE.color, opacity: 0.0 } },
+//  { name: "Punksbackground" },
+//  { name: "Punks" },
+//  { name: "Punkstop" },
+//  { name: "Punksglasses" },
+//  { name: "Punksmouth" },
+
+//  EXAMPLE MB REMIX
+//  { name: "Body" },
+//  { name: "Gradients" },
+//  { name: "Headwear" },
+//  { name: "Beak" },
+//  { name: "Eyes" },
+//  { name: "Eyewear" },
+
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 3,
+    growEditionSizeTo: 33,
     layersOrder: [
       { name: "Creator", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Curator", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Collector", options: { blend: MODE.difference, opacity: 0.0 } },
-      { name: "Edition" },
+      { name: "Community", options: { blend: MODE.difference, opacity: 0.0 } },
+      { name: "Photography", options: { blend: MODE.difference, opacity: 0.0 } },
+      { name: "Location", options: { blend: MODE.multiply, opacity: 0.0 } },
+      { name: "Punksbackground" },
+      { name: "Punks" },
+      { name: "Punkstop" },
+      { name: "Punksglasses" },
+      { name: "Punksbeard" },
+      { name: "Punksmouth" },
     ],
   },
 ];
@@ -67,8 +97,8 @@ const debugLogs = false;
 // SO WE ARE NOT STUCK WITH FIXED ASPECT RATIOS
 
 const format = {
-  width: 3000,
-  height: 2000,
+  width: 3300,
+  height: 3300,
   smoothing: false,
 };
 
