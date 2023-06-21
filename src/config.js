@@ -38,8 +38,13 @@ const layerConfigurations = [
       { name: "Location", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Look", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Boardriders", options: { blend: MODE.multiply, opacity: 0.0 } },
-      { name: "Background" },
-      { name: "Toadbody" },
+      { name: "Gradients" },
+      { name: "Body" },
+      { name: "Beak" },
+      { name: "Eyes" },
+      { name: "Eyewear" },
+      { name: "Headwear" },
+      { name: "Outerwear" },
     ],
   },
 ];
@@ -51,8 +56,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 2000,
-  height: 2000,
+  width: 4000,
+  height: 4000,
   smoothing: false,
 };
 
