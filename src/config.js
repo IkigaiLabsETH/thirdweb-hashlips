@@ -30,17 +30,12 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 33,
+    growEditionSizeTo: 3,
     layersOrder: [
       { name: "Creator", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Curator", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Collector", options: { blend: MODE.difference, opacity: 0.0 } },
-      { name: "Background" },
-      { name: "Punks" },
-      { name: "Punksbeard" },
-      { name: "Punksmouth" },
-      { name: "Punkstop" },
-      { name: "Punksglasses" },
+      { name: "Edition" },
     ],
   },
 ];
@@ -51,9 +46,29 @@ const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
 
+// const sharp = require('sharp');
+
+// const format = async (imagePath) => {
+// const image = sharp(imagePath);
+// const metadata = await image.metadata();
+
+// const maxWidth = 3000;  // Adjust as needed
+// const aspectRatio = metadata.width / metadata.height;
+
+// return {
+//    width: maxWidth,
+//    height: Math.round(maxWidth / aspectRatio),
+//    smoothing: false,
+//  };
+// };
+
+// GET MODULE NOT FOUND WITH YARN GENERATE
+// WHICH MODULE DO WE NEED TO INSTALL
+// SO WE ARE NOT STUCK WITH FIXED ASPECT RATIOS
+
 const format = {
-  width: 4000,
-  height: 4000,
+  width: 3000,
+  height: 2000,
   smoothing: false,
 };
 
