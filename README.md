@@ -121,3 +121,7 @@ The thirdweb Art Engine is forked and maintained by **[Waren Gonzaga](https://gi
 ---
 
 💻💖☕ by [Waren Gonzaga](https://warengonzaga.com) | [He is Awesome](https://www.youtube.com/watch?v=HHrxS4diLew&t=44s) 🙏
+
+yarn generate
+yarn rarity
+yarn preview
