@@ -52,7 +52,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 33,
+    growEditionSizeTo: 69,
     layersOrder: [
       { name: "Creator", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Curator", options: { blend: MODE.difference, opacity: 0.0 } },
