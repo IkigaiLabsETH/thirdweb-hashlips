@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Degen Vibes";
-const description = "Electrifying journey into the world of Degen Vibes";
+const namePrefix = "CP REMIX on Arbitrum";
+const description = "Ceci n'est pas un Punk";
 const startCountFrom = 0;
 // Optional, change hasBaseUri to true if your  images pre-uploaded to IPFS
 const hasBaseUri = false;
@@ -16,7 +16,7 @@ const baseUri = "ipfs://cid-here";
 const isLayerNameFileNameAsIs = false;
 
 const solanaMetadata = {
-  symbol: "LTL",
+  symbol: "REMIX",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
@@ -57,9 +57,9 @@ const layerConfigurations = [
       { name: "Creator", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Curator", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Collector", options: { blend: MODE.difference, opacity: 0.0 } },
-      { name: "Community", options: { blend: MODE.difference, opacity: 0.0 } },
-      { name: "Photography", options: { blend: MODE.difference, opacity: 0.0 } },
-      { name: "Location", options: { blend: MODE.multiply, opacity: 0.0 } },
+      { name: "Network", options: { blend: MODE.difference, opacity: 0.0 } },
+      { name: "Edition", options: { blend: MODE.difference, opacity: 0.0 } },
+      { name: "Season", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Punksbackground" },
       { name: "Punks" },
       { name: "Punkstop" },
