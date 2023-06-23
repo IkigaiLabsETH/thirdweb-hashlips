@@ -60,7 +60,7 @@ const layerConfigurations = [
       { name: "Network", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Edition", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Season", options: { blend: MODE.multiply, opacity: 0.0 } },
-      { name: "Texture" },
+      { name: "Punksbackground" },
       { name: "Punks" },
       { name: "Punkstop" },
       { name: "Punksglasses" },
