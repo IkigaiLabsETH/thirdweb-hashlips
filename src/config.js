@@ -52,7 +52,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 69,
+    growEditionSizeTo: 33,
     layersOrder: [
       { name: "Creator", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Curator", options: { blend: MODE.difference, opacity: 0.0 } },
@@ -60,7 +60,7 @@ const layerConfigurations = [
       { name: "Network", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Edition", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Season", options: { blend: MODE.multiply, opacity: 0.0 } },
-      { name: "Punksbackground" },
+      { name: "Texture" },
       { name: "Punks" },
       { name: "Punkstop" },
       { name: "Punksglasses" },
