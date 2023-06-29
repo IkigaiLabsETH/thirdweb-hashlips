@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "CP REMIX on Arbitrum";
-const description = "Ceci n'est pas un Punk";
+const namePrefix = "DEGEN VIBES on Mumbai";
+const description = "Ceci n'est pas un Nouns";
 const startCountFrom = 0;
 // Optional, change hasBaseUri to true if your  images pre-uploaded to IPFS
 const hasBaseUri = false;
@@ -16,7 +16,7 @@ const baseUri = "ipfs://cid-here";
 const isLayerNameFileNameAsIs = false;
 
 const solanaMetadata = {
-  symbol: "REMIX",
+  symbol: "DEGEN",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
@@ -52,7 +52,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 33,
+    growEditionSizeTo: 99,
     layersOrder: [
       { name: "Creator", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Curator", options: { blend: MODE.difference, opacity: 0.0 } },
@@ -61,11 +61,10 @@ const layerConfigurations = [
       { name: "Edition", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Season", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Punksbackground" },
-      { name: "Punksstyle" },
-      { name: "Punksheadwear" },
-      { name: "Punksglasses" },
-      { name: "Punksbeard" },
-      { name: "Punkssmoke" },
+      { name: "NounsBody" },
+      { name: "NounsAcc" },
+      { name: "NounsHead" },
+      { name: "NounsGlasses" },
     ],
   },
 ];
@@ -134,7 +133,7 @@ const background = {
 };
 
 const extraMetadata = {
-  creator: "LTL",
+  creator: "0xDEGEN007",
 };
 
 const rarityDelimiter = "#";
@@ -142,8 +141,8 @@ const rarityDelimiter = "#";
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 5,
-  thumbWidth: 50,
+  thumbPerRow: 9,
+  thumbWidth: 300,
   imageRatio: format.height / format.width,
   imageName: "preview.png",
 };
