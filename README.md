@@ -8,6 +8,24 @@ The forked version of [HashLips Art Engine](https://github.com/HashLips/hashlips
 
 Generative photography project that harnesses the serendipity of on-chain mechanics to compose unique one of a kind NFTs. Each piece is a unique combination of five core layers and additional special layers.
 
+# Creator Studio
+
+Under the guidance of esteemed photographers and curators, Ikigai Labs operates as an onchain art gallery and auction house. Artists can leverage our assistance in digitizing their masterpieces, fabricating exquisite onchain collectibles that mirror their tangible art, and obtain personalized support in minting their distinctive creator contracts. Artists can also chronicle their artistic journey on the Editorial. Creators have the freedom to decide whether to mint a one-off (ERC721) or multiple (ERC1155) copies of their artwork. The Creator Studio grants priority access to meticulously curated collections. Through our team of creators and curators, we strive to produce captivating and thought-provoking works of art that challenge conventional norms and ignite the imagination. From fine art to pixel art, photography to generative art, and AI-inspired creations, we explore the full spectrum of artistic mediums, always pushing the envelope of what is possible.
+
+# Collectors Bar
+
+The Collectors Bar is boasting a curated collection from distinguished creators. Our emphasis is on curation by the iconic Florence Moll to nurture a fine art collection for Season One of our journey. Ikigai Labs offers an open forum for creators and ccurators to immerse collectors in transformative experiences. Our purpose includes utilizing a portion of secondary royalties to collaborate with creators and commission them for exclusive mints. We recognize the intrinsic value of art as a form of cultural heritage and personal expression. As collectors ourselves, we appreciate the beauty and significance of acquiring and preserving artworks that resonate with us. At Ikigai Labs, we actively engage in collecting fine art, pixel art, photography, generative art, and various other mediums. Through our collections, we celebrate the vision and talent of artists while nurturing a vibrant art ecosystem.
+
+# Curators Pool
+
+As passionate art enthusiasts, we understand the value of curation in connecting artists and collectors. Our curatorial team diligently seeks out the most exceptional and groundbreaking artworks, curating collections that transcend the ordinary and evoke a sense of wonder. With a discerning eye for quality and a commitment to showcasing diverse artistic voices, Florence Moll & Dimitri Daniloff curated exhibitions and collections that foster connections between artists, collectors, and the onchain art community. The members of this IKIGAI LABS Art Collective, believe that a curator-centric approach is crucial and that curators play an essential role in shaping the direction of the collective and ensuring that the art we showcase is of the highest quality. Therefore, we pledge to prioritize the role of the curator in our collective.
+
+# Founders Club
+
+The Founders Mint Pass is your gateway to our exclusive community of digital artists and collectors. It offers access to exclusive events, such as cultural and art trips, private auctions, gallery inaugurations, and intimate artist dinners. The pass ensures priority access to mints from our lineup of legendary and up-and-coming artists.
+
+As a company, our true North Star is the realization of our art gallery – a physical space that embodies our commitment to art and creativity. Overlooking the majestic ocean, our art gallery will serve as a permanent workshop, a sanctuary for creative minds, and a hub for artistic exploration. It will be a space where artists and art lovers converge, where ideas are born, and where art finds its truest expression. The gallery will be a testament to our dedication to fostering artistic excellence and creating an environment that nurtures the imagination.
+
 ## ⚡ Instant Setup
 
 Let's get started with the instant setup and build. Proceed to the requirements below.

@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "DEGEN VIBES on Mumbai";
-const description = "Ceci n'est pas un Nouns";
+const namePrefix = "Founders Club on Mumbai";
+const description = "IKIGAI LABS XYZ - Image by Dimitri Daniloff";
 const startCountFrom = 0;
 // Optional, change hasBaseUri to true if your  images pre-uploaded to IPFS
 const hasBaseUri = false;
@@ -49,22 +49,27 @@ const solanaMetadata = {
 //  { name: "Eyes" },
 //  { name: "Eyewear" },
 
+//  EXAMPLE NOUNS REMIX
+
+//  { name: "Nouns" },
+//  { name: "NounsBody" },
+//  { name: "NounsAcc" },
+//  { name: "NounsHead" },
+//  { name: "NounsGlasses" },
+
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 99,
+    growEditionSizeTo: 33,
     layersOrder: [
       { name: "Creator", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Curator", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Collector", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Network", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Edition", options: { blend: MODE.difference, opacity: 0.0 } },
+      { name: "Location", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Season", options: { blend: MODE.multiply, opacity: 0.0 } },
-      { name: "Punksbackground" },
-      { name: "NounsBody" },
-      { name: "NounsAcc" },
-      { name: "NounsHead" },
-      { name: "NounsGlasses" },
+      { name: "Foundersclub" },
     ],
   },
 ];
@@ -96,8 +101,8 @@ const debugLogs = false;
 // SO WE ARE NOT STUCK WITH FIXED ASPECT RATIOS
 
 const format = {
-  width: 3300,
-  height: 3300,
+  width: 2400,
+  height: 1646,
   smoothing: false,
 };
 
@@ -133,7 +138,7 @@ const background = {
 };
 
 const extraMetadata = {
-  creator: "0xDEGEN007",
+  creator: "Dimitri Daniloff",
 };
 
 const rarityDelimiter = "#";
