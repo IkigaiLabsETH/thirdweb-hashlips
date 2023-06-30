@@ -22,7 +22,7 @@ As passionate art enthusiasts, we understand the value of curation in connecting
 
 # Founders Club
 
-The Founders Club is your gateway to exclusive events, such as cultural and art trips, private auctions, gallery inaugurations, and intimate artist dinners. The pass ensures priority access to mints from our lineup of legendary and up-and-coming artists. As a company, our true North Star is the realization of our art gallery – a physical space that embodies our commitment to art and creativity. Overlooking the majestic ocean, our art gallery will serve as a permanent workshop, a sanctuary for creative minds, and a hub for artistic exploration. It will be a space where artists and art lovers converge, where ideas are born, and where art finds its truest expression. The gallery will be a testament to our dedication to fostering artistic excellence and creating an environment that nurtures the imagination.
+The Founders Club is your gateway to exclusive events, private auctions, and gallery inaugurations. The pass ensures priority access to mints from our lineup of legendary and up-and-coming artists. As a company, our true North Star is the realization of our art gallery – a physical space that embodies our commitment to art and creativity. Overlooking the majestic ocean, our art gallery will serve as a permanent workshop, a sanctuary for creative minds, and a hub for artistic exploration. It will be a space where artists and art lovers converge, where ideas are born, and where art finds its truest expression. The gallery will be a testament to our dedication to fostering artistic excellence and creating an environment that nurtures the imagination.
 
 ## ⚡ Instant Setup
 

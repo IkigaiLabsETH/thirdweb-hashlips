@@ -69,6 +69,7 @@ const layerConfigurations = [
       { name: "Edition", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Location", options: { blend: MODE.difference, opacity: 0.0 } },
       { name: "Season", options: { blend: MODE.multiply, opacity: 0.0 } },
+      { name: "Community", options: { blend: MODE.multiply, opacity: 0.0 } },
       { name: "Foundersclub" },
     ],
   },
